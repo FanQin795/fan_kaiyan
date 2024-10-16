@@ -1,6 +1,8 @@
 import router from '@ohos.router';
 import { RouterPath } from '../router/RouterPath';
-
+/**
+ * 欢迎页
+ */
 
 @Entry
 @Component
@@ -18,8 +20,7 @@ struct SplashPage {
     Stack(){
       Image($r('app.media.landing_image'))
         //填充模式
-        .objectFit(ImageFit.Contain)
-
+        . objectFit(ImageFit.ScaleDown)
     }
     .height('100%')
     .width('100%')
