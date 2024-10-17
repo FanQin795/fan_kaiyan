@@ -4,9 +4,7 @@ import { RouterPath } from '../router/RouterPath';
 import MainViewModel from '../viewmodel/MainViewModel';
 import FindPage from './find/FindPage';
 import HomePage from './home/HomePage';
-/**
- * 导航
- */
+
 @Entry
 @Component
 struct MainPage {
