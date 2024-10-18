@@ -13,8 +13,7 @@ export class HomeViewModel extends BaseViewModel{
    */
 
   async getHomeList(resultCallback?: ResultCallback<HomeModelIssueListItemList[]>) {
-    await this.httpRequest()
-      .promise(getHomeListAxios())
+    await this.httpRequest(getHomeListAxios())
       .then(result=>{
         let items=result.issueList[0].itemList
         let list=items.filter((item)=>item.type=='video')

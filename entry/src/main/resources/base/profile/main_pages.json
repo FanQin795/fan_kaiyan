@@ -3,6 +3,5 @@
     "pages/SplashPage",
     "pages/MainPage",
     "pages/home/HomePage",
-    "pages/find/FindPage"
-  ]
+    "pages/find/FindPage"]
 }
