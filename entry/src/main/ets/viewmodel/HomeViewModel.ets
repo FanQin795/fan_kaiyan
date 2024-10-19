@@ -1,5 +1,5 @@
-import { AxiosHeaders } from "@ohos/axios"
-import { HomeModel, HomeModelIssueListItemList } from "../model/HomeModel"
+
+import { HomeModelIssueListItemList } from "../model/HomeModel"
 
 import { BaseViewModel, ResultCallback } from "./BaseViewModel"
 import { getHomeListAxios } from "../http/ApiService"
