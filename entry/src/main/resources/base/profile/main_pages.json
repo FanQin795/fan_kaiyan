@@ -4,6 +4,8 @@
     "pages/MainPage",
     "pages/home/HomePage",
     "pages/find/FindPage",
-    "pages/commonDetail/DetailPage"
+    "pages/commonDetail/DetailPage",
+    "pages/hot/HotPage",
+    "pages/mine/MinePage"
   ]
 }

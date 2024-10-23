@@ -83,7 +83,8 @@ export struct  CommonTopBar {
           }.width($r('app.float.size_50'))
           .height($r('app.float.size_50'))
         }
-      }  .height($r('app.float.size_50'))
+      }
+      .height($r('app.float.size_50'))
       .width("100%")
 
     }.height(this.statusBarHeight)

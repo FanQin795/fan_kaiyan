@@ -4,6 +4,8 @@ import { RouterPath } from '../router/RouterPath';
 import MainViewModel from '../viewmodel/MainViewModel';
 import FindPage from './find/FindPage';
 import HomePage from './home/HomePage';
+import { HotPage } from './hot/HotPage';
+import { MinePage } from './mine/MinePage';
 
 @Entry
 @Component
@@ -28,12 +30,12 @@ struct MainPage {
         .tabBar(this.TabBottom(MainViewModel.tabTitle[1], 1))
 
         TabContent() {
-
+            HotPage()
         }
         .tabBar(this.TabBottom(MainViewModel.tabTitle[2], 2))
 
         TabContent() {
-
+          MinePage()
         }
         .tabBar(this.TabBottom(MainViewModel.tabTitle[3], 3))
       }

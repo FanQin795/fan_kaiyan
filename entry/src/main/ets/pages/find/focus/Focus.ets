@@ -4,7 +4,7 @@ import { FocusItemComponent } from "./FocusItemComponent"
 
 @Component
 export  struct FocusPage{
-
+  private rankType: string = "weekly"
   @State dataList:FocusModelItemList[]=[]
   @State isRefreshing:boolean=false
   aboutToAppear(): void {
